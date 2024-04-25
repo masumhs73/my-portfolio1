@@ -5,9 +5,16 @@
 
 header{
     background-color:darksalmon;
-    
+    background-image: url('/images/developer.png');
+    background-repeat: no-repeat;
+    background-position: left center;
+    margin-bottom: 130px;
 }
 
+.text-initial{
+    color:firebrick;
+    font-size: 80px;
+}
 .text-primary{
     color:firebrick;
     font-size: 55px;
@@ -28,7 +35,7 @@ header{
 nav{
     display: flex;
     justify-content: space-between;
-    padding: 50px 120px;;
+    padding: 50px 140px;;
 }
 .nav-title{
     font-size: 45px;
@@ -51,14 +58,14 @@ nav li{
 .banner{
     display: flex;
     align-items: center;
-    margin: 0 120px;
+    margin: 0 140px;
 }
 .banner-sub-title{
     font-size: 40px;
     font-weight: 500;
 }
 .banner-title{
-    font-size: 70px;
+    font-size: 65px;
     font-weight: 800px;
     margin-bottom: 50px;
 }
@@ -68,15 +75,50 @@ nav li{
     margin-bottom: 50px;
 }
 
+/* main section */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+section{
+    margin-top: 130px;
+}
+
 /* about section styles */
 
 .about{
-    margin-top: 130px;
+    background-color:bisque;
+    border-radius: 10px;
+    text-align: center;
+    padding: 120px 140px;
 }
-.about-section-title{}
-.about-section-description{}
-.about-section-container{}
-.about-info{}
-.about-info-title{}
-.about-info-description{}
+.about-section-title{
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    color: firebrick;
+}
+.about-section-description{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.about-section-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+}
+.about-info-title{
+    font-size: 16px;
+    font-weight: 400;
+    color: darkslategrey;
+}
+.about-info-description{
+    font-size: 20px;
+    font-weight: 600;
+}
 
