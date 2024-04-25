@@ -42,3 +42,11 @@ nav li{
     margin-left: 50px;
     font-size: 20px;
 }
+
+/* banner styles */
+
+.banner{
+    margin: 0px 200px;
+    text-align: center;
+
+}
