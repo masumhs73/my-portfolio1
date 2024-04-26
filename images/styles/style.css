@@ -145,8 +145,8 @@ section{
 
 .skill-description{
     font-size: 20px;
-    margin-bottom: 50px;
     color: darkslategrey;
+    margin: 50px 100px 100px 100px;
 }
 
 .skill-section-container{
@@ -192,17 +192,56 @@ section{
 }
 
 .resume-content-title{
-    font-size: 30px;
+    font-size: 35px;
     font-weight: 600;
     margin-bottom: 50px;
 }
 
-.resume-info{}
+.resume-info{
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
 
-.title{}
+.title{
+    font-size: 25px;
+    font-weight: 500px;
+    margin-bottom: 20px;
+}
 
-.sub-title{}
+.sub-title{
+    font-size: 18px;
+    font-weight: 500px;
+    margin-bottom: 10px;
+    color: darkslategrey;
+}
 
-.resume-descripton{}
+.resume-descripton{
+    font-size: 16px;
+    color: darkslategrey;
+    
+}
 
+.resume-button{
+    text-align: center;
+    margin-top: 50px;
+}
 
+/* contact section */
+
+.contact{
+    display: flex;
+    gap: 24px;
+    padding: 100px 100px;
+    background-color: cornsilk;
+}
+
+.contact-title{}
+
+.contact-info{
+    margin-bottom: 20px;
+}
+
+.contact a{
+    text-decoration: none;
+    margin: 15px;
+}
