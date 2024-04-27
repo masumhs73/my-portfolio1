@@ -82,7 +82,7 @@ nav li {
 .banner {
     display: flex;
     align-items: center;
-    margin: 0 140px;
+    margin: 100px 140px;
 }
 
 .banner-sub-title {
