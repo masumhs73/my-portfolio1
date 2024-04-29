@@ -11,7 +11,7 @@
 
 header {
     background-color: darksalmon;
-    background-image: url('/images/developer.png');
+    background-image:url('../images/developer.png');
     background-repeat: no-repeat;
     background-position: left center;
     margin-bottom: 130px;
